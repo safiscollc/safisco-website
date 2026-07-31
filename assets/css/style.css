@@ -335,11 +335,11 @@ h3 { font-size: 1.25rem; }
 .contact-item h4 { margin: 0 0 4px; font-size: 1rem; }
 .contact-item p { margin: 0; font-size: 0.92rem; }
 
-.bank-card { background: var(--navy); color: var(--cream-light); border-radius: var(--radius); padding: 40px; max-width: 640px; margin: 0 auto; }
-.bank-card h2 { color: var(--cream-light); }
-.bank-card p { color: rgba(232,222,208,0.75); margin-bottom: 24px; }
-.bank-details { display: grid; gap: 14px; }
-.bank-row { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid rgba(232,222,208,0.15); font-size: 0.95rem; }
+.contact-col { display: flex; flex-direction: column; gap: 24px; }
+.bank-card { background: var(--navy); color: var(--cream-light); border-radius: var(--radius); padding: 32px 40px; }
+.bank-card h3 { color: var(--cream-light); margin-bottom: 16px; }
+.bank-details { display: grid; gap: 12px; }
+.bank-row { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid rgba(232,222,208,0.15); font-size: 0.92rem; }
 .bank-row:last-child { border-bottom: none; padding-bottom: 0; }
 .bank-row span { color: rgba(232,222,208,0.6); }
 .bank-row strong { color: var(--cream-light); font-weight: 600; letter-spacing: 0.02em; }
