@@ -353,6 +353,20 @@ h3 { font-size: 1.25rem; }
 html[dir="rtl"] .footer-grid h4 { font-family: var(--font-arabic); }
 .footer-grid ul li { margin-bottom: 10px; font-size: 0.9rem; }
 .footer-grid ul a:hover { color: var(--gold); }
+.social-links { display: flex; gap: 10px; margin-top: 18px; }
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(232,222,208,0.1);
+  color: rgba(232,222,208,0.8);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.social-links a svg { width: 17px; height: 17px; }
+.social-links a:hover { background: var(--gold); color: var(--navy-dark); }
 .footer-bottom {
   border-top: 1px solid rgba(232,222,208,0.12);
   margin-top: 40px;
